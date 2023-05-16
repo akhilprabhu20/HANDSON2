@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./download.jpeg" type="image/x-icon">
+    <title>Hands-On-Two</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form  >
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Enter name" id="name" name="name" autocomplete="true"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter email" id="email" name="value" autocomplete="true"  ><br><br>
+        <label for="pass">Password: </label>
+        <input type="password" placeholder="Enter Password" id="pass" name="Password"  autocomplete="true" ><br><br>
+        <label for="phone">Phone no: </label>
+        <input type="number" placeholder="Enter phone number" id="phone"  pattern="[0-9]{10}" name="phone"><br><br>
+        <label for="language">Language: </label>
+        <input type="radio" name="language" value="React" id="language" ><label for="react">React</label>
+        <input type="radio" name="language" value="Angular" id="language"><label for="angular">Angular</label>
+        <input type="radio" name="language" value="Vue" id="language"><label for="vue">Vue</label><br><br>
+        <label for="course">Course: </label>
+        <input type="checkbox" name="course1" id="MERN" value="MERN"> <label for="MERN">MERN</label>
+        <input type="checkbox" name="course2" id="MEAN" value="MEAN"> <label for="MEAN">MEAN</label>
+        <input type="checkbox" name="course3" id="MEVN" value="MEVN"> <label for="MEVN">MEVN</label><br><br>
+        <label for="drop">Field: </label><br>
+        <select name="Field" id="drop" required>
+            <option disabled selected>Default Value</option>
+            <option value="Frontend">Frontend Developer</option>
+            <option value="Backend">Backend Developer</option>
+            <option value="Fullstack">Fullstack Developer</option>
+
+        </select><br>
+        <textarea cols="50" rows="4"name="textarea" value=""></textarea> 
+        <input type="submit" value="Submit" >
+    </form>
+    <a href="./index1.html">Click Here</a>
+    
+</body>
+</html>
